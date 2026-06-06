@@ -1,0 +1,30 @@
+{
+  "name": "tara-agent",
+  "version": "1.0.0",
+  "description": "Tara — AI-powered personal finance research agent built with Mastra",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "ingest": "tsx scripts/ingest.ts",
+    "eval": "tsx scripts/eval.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.0.0",
+    "@ai-sdk/google": "^1.0.0",
+    "@ai-sdk/groq": "^1.0.0",
+    "@mastra/core": "^0.10.0",
+    "dotenv": "^16.0.0",
+    "express": "^5.0.0",
+    "pg": "^8.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
