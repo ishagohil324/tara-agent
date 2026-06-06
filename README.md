@@ -113,7 +113,7 @@ Covers 15 questions: single lookup, date filtering, refunds, merchant aliases, t
 
 Against deployed URL:
 ```bash
-$env:EVAL_URL="https://your-render-url.onrender.com"; npx tsx scripts/eval.ts
+$env:EVAL_URL=""https://tara-agent-e7qr.onrender.com; npx tsx scripts/eval.ts
 ```
 
 ---
